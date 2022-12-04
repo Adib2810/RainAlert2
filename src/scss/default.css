@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+::after,
+::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.welcome {
+  background: url(../assets/images/clouds-g8eee36838_1920.jpg);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.welcome__rain {
+  justify-content: center;
+  width: 50%;
+  height: 10%;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+.welcome__rain__rain h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.welcome__rain__rain p {
+  font-weight: 400;
+  font-size: 20px;
+  width: 100%;
+  height: 30%;
+  margin-top: -5px;
+}
+
+.mainTwo {
+  height: 90%;
+  background: linear-gradient(#2442AC, #2834be);
+}
+.mainTwo__top {
+  justify-content: center;
+  display: flex;
+  padding: 15px;
+}
+.mainTwo__top__rain2 {
+  justify-content: center;
+  margin-top: 30px;
+  width: 50%;
+  height: 10%;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+.mainTwo__top__rain2__txt {
+  color: white;
+}
+.mainTwo__top__rain2 h1 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.mainTwo input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+}
+.mainTwo__section {
+  border: 0px;
+  border-radius: 5px;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 45px;
+}
+.mainTwo__section__searchDiv {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainTwo__section .mainTwo__section__searchDiv img {
+  width: 40%;
+}
+.mainTwo__degree {
+  display: flex;
+  justify-content: space-evenly;
+  height: 15%;
+  padding: 20px;
+}
+.mainTwo__degree__pluie {
+  justify-content: space-evenly;
+  display: flex;
+}
+.mainTwo__degree__nombre {
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.mainTwo .mainTwo__degree__pluie img {
+  height: 100%;
+}
+.mainTwo__texte {
+  height: 10%;
+}
+.mainTwo__texte__p {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+.mainTwo__graph {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+}
+.mainTwo__graph__precipitations {
+  height: 100%;
+  width: 85%;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.mainTwo__graph__precipitations__top {
+  display: flex;
+  justify-content: space-between;
+  height: 9%;
+  font-size: 13px;
+  color: #102A88;
+}
+.mainTwo__graph__precipitations__fiabilite {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #102A88;
+  height: 20%;
+}
+.mainTwo__graph__precipitations .pourcentage {
+  background-color: #1335af;
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  height: 80%;
+}
+.mainTwo__graph__precipitations__bottom {
+  display: flex;
+  height: 91%;
+  float: left;
+  justify-content: space-evenly;
+}
+.mainTwo__graph__precipitations__left {
+  display: flex;
+  float: left;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+}
+.mainTwo__graph__precipitations__left__goutte {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: left;
+  color: #7D7D7D;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.bottom {
+  bottom: 0;
+  height: 10%;
+  background-color: #D9D9D9;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bottom__prevision {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.bottom__carte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.__img {
+  height: 50%;
+}
+
+.bottom__prevision a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #102a88;
+}
+
+.bottom__carte__carteImg {
+  height: 50%;
+}
+
+.bottom__carte a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: rgba(16, 42, 136, 0.4901960784);
+}/*# sourceMappingURL=default.css.map */
