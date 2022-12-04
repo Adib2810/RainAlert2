@@ -3,112 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="../src/scss/default.css">
-    <title>RainAlert</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sass/default.css">
+    <script src="./index.js"></script>
+<script src="./js/header.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="./style.css"> -->
+    <title>Rain Alert</title>
 </head>
+<body id="app">
+    <div>
+</div>
 
-<body>
-    <a href="#Two">
-        <main class="welcome" >
-            <img src="./img/bi_cloud-hail.png" alt=""  >
-            
-                <div class="welcome__rain_img">
-                    <img src="./assets/images/rond.png" alt="">
+<main class="mainTwo" id="Two"> 
+
+    <div class="mainTwo__top">
+   
+        <div class="mainTwo__top__rain_img2">
+             <img src="./assets/images/rond2.png" alt="">
+       </div>
+   
+        <div class="mainTwo__top__rain2">
+           <h1 class="mainTwo__top__rain2__txt">RainAlert</h1>
+       </div>
+   </div>
+   
+       <section class="mainTwo__section">
+           <div class="mainTwo__section__searchDiv">
+           <img src="./assets/images/clarity_map-marker-line.png" alt="">     
+               <input type="text" placeholder="Paris,FR" name="Paris,FR">
+                   <a href=""><img src="./assets/images/searchblack.png" alt=""></a>
+               </form>
+               </div>
+           </div>
+       </section>
+   
+           <section class="mainTwo__degree">
+               
+               <div class="mainTwo__degree__pluie"> <img src="./assets/images/bi_cloud-drizzle.png" alt="">
+               </div>
+                   <div class="mainTwo__degree__nombre">  <p>20°C</p> </div>
+           </section>
+   
+               <section class="mainTwo__texte"> <div class="mainTwo__texte__p">
+                   <p>La pluie se termine dans 1h45</p>
+                   </div> 
+               </section>
+   
+                   <section class="mainTwo__graph">
+                       <div class="mainTwo__graph__precipitations">              
+                           <div class="mainTwo__graph__precipitations__top">
+                               <h1>Précipitations</h1> <h1> Fiabilité</h1> <h2 class="mainTwo__graph__precipitations__top__pourc"> 90%</h2>
+                           </div>
+                            <div class="mainTwo__graph__precipitations__bot">
+                               <div class="mainTwo__graph__precipitations__bot__left">
+                                       <div class="mainTwo__graph__precipitations__bot__left__goutte">
+                                           <img src="../src/assets/images/goutte3.png" alt=""> Fortes 
+                                           <img src="../src/assets/images/goutte2.png" alt=""> Moyennes 
+                                           <img src="../src/assets/images/goutte.png" alt=""> Faibles
+                                       </div>
+                               </div>
+                               <div class="mainTwo__graph__precipitations__bot__right">
+                                   <div class="mainTwo__graph__precipitations__bot__right__graph">
+                                       
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+   
+                   </section>
+
+            <section class="mainTwo__number">
+                <div class="mainTwo__number__rangee">
+                    <p>12:02</p>
+                    <p>13:00</p>
+                    <p>14:00</p>
+                    <p>15:00</p>
                 </div>
-
-                <div class="welcome__rain">
-                    <h1>RainAlert</h1>
-               <p>Préparez-vous pour la pluie</p>
-            </div>
-    </main>
-</a>
-
- <main class="mainTwo" id="Two"> 
-
-     <div class="mainTwo__top">
-
-         <div class="mainTwo__top__rain_img2">
-              <img src="./assets/images/rond.png" alt="">
-        </div>
-
-         <div class="mainTwo__top__rain2">
-            <h1 class="mainTwo__top__rain2__txt">RainAlert</h1>
-        </div>
-    </div>
-
-        <section class="mainTwo__section">
-
-            <div class="mainTwo__section__searchDiv">
-            <img src="./assets/images/clarity_map-marker-line.png" alt="">     
-                <input type="text" placeholder="Paris,FR" name="Paris,FR">
-                    <a href=""><img src="./assets/images/searchblack.png" alt=""></a>
-                </form>
-                </div>
-            </div>
-        </section>
-
-            <section class="mainTwo__degree">
-                
-                <div class="mainTwo__degree__pluie"> <img src="./assets/images/bi_cloud-drizzle.png" alt="">
-                </div>
-                    <div class="mainTwo__degree__nombre">  <p>20°C</p> </div>
             </section>
+            
 
-                <section class="mainTwo__texte"> <div class="mainTwo__texte__p">
-                    <p>La pluie se termine dans 1h45</p>
-                    </div> 
-                </section>
-
-                    <section class="mainTwo__graph">
-                        <div class="mainTwo__graph__precipitations">
-                                                            
-                            <div class="mainTwo__graph__precipitations__bottom">
-                                <div class="mainTwo__graph__precipitations__left">
-                                    <div class="mainTwo__graph__precipitations__left__goutte">
-                                        <img src="./assets/images/goutte3.png" alt=""> <div class="fort"> Fortes</div>
-                                        <img src="./assets/images/goutte2.png" alt=""> <div class="moyen"> Moyennes</div>
-                                        <img src="./assets/images/goutte.png" alt=""> <div class="faible"> Faibles</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mainTwo__graph__precipitations__top" >
-                                 <h1>Précipitations</h1>
-                                </div>
-                            <div class="mainTwo__graph__precipitations__fiabilite"> 
-                                <h1>Fiabilité</h1>
-                                 <h2 class="pourcentage"> 90% </h2> 
-                                </div>
-                            </div>
+   </main>
+   
 
 
-                        </div>
+        
 
-                    </section>
-    </main>
-
-
-
-   <article class="bottom">
-    <div class="bottom__prevision">
-
-      <div class="bottom__prevision__img">
-         <img src="./assets/images/bi_cloud.png" alt="">
-         </div>
-        <div>
-            <a  href="#Two"> Précipitations</a>
-        </div>
-     </div>
-    <div class="bottom__carte">
-        <div class="bottom__carte__carteImg">
-            <img src="./assets/images/clarity_map-marker-line.png" alt="">
-        </div>
-        <div>
-            <a  href="#Three"> Carte</a>
-        </div>
-    </div>
-   </article>
-
-
-   <script src="index.js"></script>
 </body>
+
 </html>

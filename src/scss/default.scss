@@ -12,9 +12,6 @@ body {
   height: 100vh;
 }
 
-html{
-    scroll-behavior: smooth;
-  }
 
   .welcome{
     background: url(../assets/images/clouds-g8eee36838_1920.jpg);
@@ -157,61 +154,78 @@ justify-content: center;
     border-radius: 5px;
     font-family:'Open Sans', sans-serif;
     display: flex;
-    justify-content: space-between;
-    padding: 15px;
+    flex-direction: column;
+    font-weight: 700;
     &__top{
+      height: 20%;
+       border: 1px solid black;
+       color: #2442AC;
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       font-size: 12px;
+       padding: 5px;
+       &__pourc{
+        color: #fff;
+        background-color: $bleu-fonce;
+         border-radius: 5px;
+       }
+    }
+    &__bot{
+      height: 80%;
+      width: 100%;
       display: flex;
-      justify-content: space-between;
-      height: 9%;
-      font-size: 13px;
-      color: $bleu-fonce;
-    }
-      &__fiabilite{
+      flex-direction: row;
+      &__left{
+        width: 25%;
+        height: 100%;
         display: flex;
-        justify-content: space-between;
-        font-size: 13px;
-        color: $bleu-fonce;
-        height: 20%;
-      }
-        .pourcentage{
-          background-color: #1335af;
-          color: #fff;
-          border-radius: 5px;
-          display: flex;
-          justify-content: space-between;
-          width: 60%;
-          height: 80%;
-    
-        }
-
-        &__bottom{
-          display: flex;
-          height: 91%;
-          float: left;
-          justify-content: space-evenly;
-        }
-          &__left{
-            display: flex;
-            float: left;
-            justify-content: space-evenly;
+        flex-direction: column;
+          &__goutte{
+            color: #7D7D7D;
+            padding: 5px;
             flex-direction: column;
-            width: 100%;
-            &__goutte{
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              float: left;
-              color: #7D7D7D;
-              font-family:'Open Sans', sans-serif;
-              font-weight: 700;
-            }
+          }
+       }
+     &__right{
+      width: 75%;
+      height: 100%;
+
+        &__graph{
+          height: 100%;
+          width: 100%;
+          background: linear-gradient(180deg, #ff1d1d 1.19%, rgba(253, 176, 60, 0) 101.99%);
+          clip-path: polygon(44% 56%, 70% 43%, 85% 78%, 100% 100%, 0 100%, 28% 14%);
+
+        }
+     }
     }
+  }
 }
+
+
+}
+
+.mainThree{
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(#2442AC, #2834be);
+  &__contour{
+    height: 76%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    &__map{
+      justify-content: center;
+      align-items: center;    
+      display: flex;
+  }
+  }
 }
 
 
 
-}
 .bottom{
   bottom: 0;
   height: 10%;
@@ -220,6 +234,7 @@ justify-content: center;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: sticky;
 
 
 &__prevision{
