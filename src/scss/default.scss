@@ -10,6 +10,7 @@
 
 body {
   height: 100vh;
+  overflow: hidden;
 }
 
 
@@ -38,7 +39,7 @@ body {
               margin-top: -5px;
           }   
           }
-          }
+    }
 
 .mainTwo{
   height: 90%;
@@ -144,6 +145,7 @@ input[type=text] {
 }
 
 &__graph{
+
 height: 40%;
 display: flex;
 justify-content: center;
@@ -204,6 +206,25 @@ justify-content: center;
   }
 }
 
+&__number{
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:'Open Sans', sans-serif;
+  font-weight: 700;
+  &__rangee{
+    background-color: #102A88;
+    width: 90%;
+    height: 30%;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
 
 }
 
@@ -269,9 +290,17 @@ justify-content: center;
   height: 50%;
 }
 
-.bottom__carte a{
+.bottom__carte a {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  color: #102a887d;
+  color: #102a88;
+}
+
+
+#mainTwo:target .bottom__carte{
+  color: #102a88;
+}
+#mainThree:target .bottom__prevision{
+  color: #102a88;
 }

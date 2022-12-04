@@ -73,6 +73,17 @@ const Main = () => {
                     </div>
 
                 </section>
+
+
+                <section class="mainTwo__number">
+                <div class="mainTwo__number__rangee">
+                    <p>12:02</p>
+                    <p>13:00</p>
+                    <p>14:00</p>
+                    <p>15:00</p>
+                </div>
+            </section>
+
 </main>
 
 
@@ -108,7 +119,7 @@ const Main = () => {
          </div>
         <div class="bottom__carte">
             <div class="bottom__carte__carteImg">
-                <img src="./assets/images/clarity_map-marker-line.png" alt="">
+                <img src="./assets/images/map.png" alt="">
             </div>
             <div>
                 <a  href="#Three"> Carte</a>
